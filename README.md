@@ -1,1 +1,1 @@
-My blog.
+My blog/secondary page.
