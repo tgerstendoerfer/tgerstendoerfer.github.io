@@ -11,7 +11,7 @@ layout: nil
 	<author>
 		<name>Thomas Gerstendörfer</name>
 	</author>
-	<rights>Copyright (c) 2013 Thomas Gerstendörfer. All rights reserved.</rights>
+	<rights>Copyright (c) 2013, 2014 Thomas Gerstendörfer. All rights reserved.</rights>
 	
 	{% for post in site.posts limi:20 %}
 	<entry>
