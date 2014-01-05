@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'Equity Text B';
+	src: url('http://gerstendoerfer.com/lib/equity-text-b-regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	font-family: "Equity Text B", "Adobe Caslon Pro", "Caslon", "Georgia", serif;
+	font-weight: normal;
+	font-size: 9pt;
+}
+
+html {
+	background-color: white;
+	color: black !important;
+	margin-left: 80px;
+	margin-right: 100px;
+}
+
+h1, h2, h3 {
+	font-size: 14pt;
+}
+
+a:active, a:hover, a:link, a:visited {
+	color: black !important;
+	text-decoration: underline;
+}
+
+p {
+	margin-top: 12px;
+	page-break-inside: avoid;
+}
+
+nav, .nav {
+	display: none;
+}
