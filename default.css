@@ -44,8 +44,8 @@ nav a:hover {
 	color: #03c;
 }
 
-main>ul:nth-child(2) {
-	margin-top: 0;
+ul {
+	margin-top: 4px;
 }
 
 p, li {
