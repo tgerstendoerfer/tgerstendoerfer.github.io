@@ -19,3 +19,5 @@ Dieses zeigt die Fotos mittels [PhotoSwipe](http://www.photoswipe.com) an.
 
 Die neuen Galerien kannst du auf <http://gerstendoerfer.com/photos/>
 anschaun.
+
+<a href="http://gerstendoerfer.com/photos/" title="Thomas Gerstendörfers Fotos"><img src="/images/galleries-2013.png" alt="Screenshot"></a>
