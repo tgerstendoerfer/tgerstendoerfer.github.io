@@ -11,3 +11,5 @@ Die Bilder:
 * [Vorrunden](http://www.swiss-architects.com/pages/page_item/Fussball_13_Vorrunden)
 * [Zwischenrunden, Finale, Siegerehrung](http://www.swiss-architects.com/pages/page_item/Fussball_13_Finals)
 * [Impressionen](http://www.swiss-architects.com/pages/page_item/Fussball_13_Impressionen)
+
+<img src="http://gerstendoerfer.com/photos/tg-255492.jpg" alt="Fussballer im Tor">
