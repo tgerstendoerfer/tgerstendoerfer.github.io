@@ -5,15 +5,19 @@
 		<title>{{ page.title }} | gerstendoerfer.ch</title>
 		<link rel="STYLESHEET" type="text/css" href="/default.css">
 		<link rel="alternate" type="application/atom+xml" href="feed.xml" title="Sitewide ATOM Feed">
+		<script>
+			document.createElement('nav');
+			document.createElement('main');
+		</script>
 	</head>
 	<body>
-		<div id="header">
+		<nav>
 			<h1><a href="/">gerstendoerfer.ch</a></h1>
 			<p>Gedanken an der Schnittstelle von Kunst, Technologie und allem anderen. Von <a href="http://gerstendoerfer.com">Thomas Gerstendörfer</a>.</p>
-		</div>
-		<div id="main">
+		</nav>
+		<main>
 			<h1>{{ page.title }}</h1>
 			{{ content }}
-		</div>
+		</main>
 	</body>
 </html>

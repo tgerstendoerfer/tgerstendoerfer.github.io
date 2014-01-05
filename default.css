@@ -23,25 +23,27 @@ a:active, a:hover, a:link, a:visited {
 	text-decoration: none;
 }
 
-#header {
+nav {
 	text-align: center;
 }
 
-#header h1 {
+nav h1 {
 	font-weight: 100;
 	font-size: 36pt;
 }
 
-#header,
-#header a {
+nav,
+nav a:link,
+nav a:visited,
+nav a:active {
 	color: #ccc;
 }
 
-#header a:hover {
+nav a:hover {
 	color: #03c;
 }
 
-#main>ul:nth-child(2) {
+main>ul:nth-child(2) {
 	margin-top: 0;
 }
 
@@ -58,7 +60,7 @@ h1, h2, h3 {
 }
 
 @media screen {
-	#main {
+	main {
 		padding-top: 40px;
 		padding-bottom: 26px;
 	}
