@@ -12,7 +12,8 @@ html {
 }
 
 body {
-	margin: 0;
+	margin: 3px;
+	margin-left: 6px;
 }
 
 a:link		{ color: #900; }
