@@ -21,7 +21,6 @@ h1, h2, h3 {
 
 a:active, a:hover, a:link, a:visited {
 	color: black !important;
-	text-decoration: underline;
 }
 
 p {
