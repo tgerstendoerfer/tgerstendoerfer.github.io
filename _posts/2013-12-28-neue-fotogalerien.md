@@ -14,7 +14,7 @@ müssen, schrieb ich mit
 ein einfaches Plugin für Adobe Photoshop Lightroom, in dem ich bereits seit
 Jahren all meine Fotos verwalte.
 Dabei ist nicht das Plugin für die Formatierung zuständig, sondern das
-entsprechende Jekyll-Layout zuständig.
+entsprechende Jekyll-Layout.
 Dieses zeigt die Fotos mittels [PhotoSwipe](http://www.photoswipe.com) an.
 
 Die neuen Galerien kannst du auf <http://gerstendoerfer.com/photos/>
