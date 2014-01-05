@@ -5,17 +5,14 @@
 	font-style: normal;
 }
 
-* {
-	font-family: "Equity Text B", "Adobe Caslon Pro", "Caslon", "Georgia", serif;
-	font-weight: normal;
-	font-size: 9pt;
-}
-
 html {
 	background-color: white;
 	color: black !important;
 	margin-left: 80px;
 	margin-right: 100px;
+	font-family: "Equity Text B", "Adobe Caslon Pro", "Caslon", "Georgia", serif;
+	font-weight: normal;
+	font-size: 9pt;
 }
 
 h1, h2, h3 {

@@ -1,9 +1,6 @@
-* {
+html {
 	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-weight: normal;
-}
-
-html {
 	background-color: white;
 	color: #666;
 	max-width: 800px;
