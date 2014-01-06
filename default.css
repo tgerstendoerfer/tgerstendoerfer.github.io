@@ -17,13 +17,12 @@ body {
 	margin-right: auto;
 }
 
-a:link		{ color: #900; }
-a:visited	{ color: #900; }
-a:active	{ color: #03c; }
-a:hover		{ color: #03c; }
-
 a:active, a:hover, a:link, a:visited {
+	color: #900;
 	text-decoration: none;
+}
+a:hover {
+	color: #03c;
 }
 
 nav {
