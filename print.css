@@ -5,6 +5,21 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Equity Text B';
+	src: url('http://gerstendoerfer.com/lib/equity-text-b-italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Equity Text B';
+	src: url('http://gerstendoerfer.com/lib/equity-text-b-bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
 html {
 	background-color: white;
 	color: black !important;
