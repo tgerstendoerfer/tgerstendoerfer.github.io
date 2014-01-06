@@ -22,12 +22,16 @@
 
 html {
 	background-color: white;
+	background-image: none;
 	color: black !important;
-	margin-left: 80px;
-	margin-right: 100px;
 	font-family: "Equity Text B", "Adobe Caslon Pro", "Caslon", "Georgia", serif;
 	font-weight: normal;
 	font-size: 9pt;
+}
+
+body {
+	margin-left: 80px;
+	margin-right: 100px;
 }
 
 h1, h2, h3 {

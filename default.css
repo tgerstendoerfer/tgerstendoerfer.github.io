@@ -1,16 +1,20 @@
 html {
 	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-weight: normal;
-	background-color: white;
+	background-color: #eee;
+	background-image: linear-gradient(5deg,#ccc,#eee,#eee);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	color: #666;
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
+	height: 100%;
 }
 
 body {
 	margin: 3px;
 	margin-left: 6px;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 a:link		{ color: #900; }
