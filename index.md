@@ -4,12 +4,8 @@ title: Journal
 description: Gedanken an der Schnittstelle von Kunst, Technologie und allem anderen. Von Thomas Gerstendörfer.
 ---
 
-<ul>
-	{% for post in site.posts %}
-		<li>
-			<a href="{{ post.url }}">{{ post.title }}</a>
-			<span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
-		</li>
-	{% endfor %}
-</ul>
+{% for post in site.posts %}
+* [{{ post.title }}]({{ post.url }}) <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+{% endfor %}
+
 <p style="margin-top: 20px;" class="nav"><a type="application/atom+xml" href="/feed.xml">Atom Feed</a></p>
