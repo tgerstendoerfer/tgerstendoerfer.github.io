@@ -43,7 +43,7 @@ a:active, a:hover, a:link, a:visited {
 }
 
 p {
-	margin-top: 12px;
+	margin-bottom: 12px;
 	page-break-inside: avoid;
 }
 
