@@ -100,6 +100,13 @@ p.footer {
 	}
 }
 
+@media screen and (max-width: 816px) {
+	html {
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 	nav h1 {
 		font-size: 22pt;
