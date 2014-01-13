@@ -22,6 +22,8 @@ body {
 	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
 a:active, a:hover, a:link, a:visited {
@@ -97,13 +99,6 @@ p.footer {
 
 	.post-date {
 		color: #ccc;
-	}
-}
-
-@media screen and (max-width: 816px) {
-	html {
-		margin-left: 8px;
-		margin-right: 8px;
 	}
 }
 
