@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Journal
 description: Gedanken an der Schnittstelle von Kunst, Technologie und allem anderen. Von Thomas Gerstendörfer.
 ---
 

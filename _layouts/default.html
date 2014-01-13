@@ -2,7 +2,7 @@
 <html lang="de">
 	<head>
 		<meta charset='utf-8'>
-		<title>{{ page.title }} - Thomas Gerstendörfer</title>
+		<title>{% if page.title %}{{ page.title }} - {% endif %}Thomas Gerstendörfer</title>
 		<link rel="STYLESHEET" type="text/css" href="/default.css">
 		<link rel="STYLESHEET" type="text/css" href="/print.css" media="print">
 		<link rel="alternate" type="application/atom+xml" href="feed.xml" title="Thomas Gerstendörfer">
@@ -25,7 +25,7 @@
 			<p>Von <a href="http://gerstendoerfer.com" rel="me">Thomas Gerstendörfer</a>.</p>
 		</nav>
 		<main>
-			<h1>{{ page.title }}</h1>
+			{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
 			{{ content }}
 		</main>
 	</body>
