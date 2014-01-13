@@ -114,5 +114,8 @@ p.footer {
 		padding-top: 6px;
 		padding-bottom: 0;
 	}
+	main img {
+		max-width: 100%;
+	}
 }
 
