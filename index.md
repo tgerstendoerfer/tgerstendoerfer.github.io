@@ -10,4 +10,4 @@ description: Gedanken an der Schnittstelle von Kunst, Technologie und allem ande
 <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
 {% endfor %}
 
-<p style="margin-top: 20px;" class="nav"><a type="application/atom+xml" href="/feed.xml">Atom Feed</a></p>
+<p class="footer"><a type="application/atom+xml" href="/feed.xml">Atom Feed</a></p>

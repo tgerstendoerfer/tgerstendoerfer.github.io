@@ -84,6 +84,11 @@ p.post-date {
 	margin-bottom: 13px;
 }
 
+p.footer {
+	margin-top: 24px;
+	margin-bottom: 18px;
+}
+
 @media screen {
 	main {
 		padding-top: 40px;

@@ -47,6 +47,6 @@ p {
 	page-break-inside: avoid;
 }
 
-nav, .nav {
+nav, .footer {
 	display: none;
 }
