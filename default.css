@@ -64,6 +64,14 @@ p, li {
 	font-size: 10pt;
 }
 
+@media screen {
+	p, li {
+		font-size: 11pt;
+		line-height: 1.4;
+		margin-bottom: 8px;
+	}
+}
+
 h1, h2, h3 {
 	margin-top: 18px;
 	margin-bottom: 4px;
