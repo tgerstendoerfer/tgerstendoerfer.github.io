@@ -12,4 +12,4 @@ Die Bilder:
 * [Zwischenrunden, Finale, Siegerehrung](http://www.swiss-architects.com/architektur-news/meldungen/Zwischenrunden_und_Finals_3055)
 * [Vorrunden](http://www.swiss-architects.com/architektur-news/meldungen/Vorrunden_3054)
 
-<img src="http://gerstendoerfer.com/photos/tg-255492.jpg" alt="Fussballer im Tor">
+<img src="http://gerstendoerfer.com/photos/sport/tg-268173.jpg" alt="12. Zürcher Architekten-Fussballturnier">
