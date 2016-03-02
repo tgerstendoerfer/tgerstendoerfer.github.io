@@ -2,17 +2,17 @@
 <html lang="de">
 	<head>
 		<meta charset='utf-8'>
-		<title>{% if page.title %}{{ page.title }} - {% endif %}Thomas Gerstendörfer</title>
+		<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.author.name }}</title>
 		<link rel="STYLESHEET" type="text/css" href="/default.css">
 		<link rel="STYLESHEET" type="text/css" href="/print.css" media="print">
 		<link rel="alternate" type="application/atom+xml" href="feed.xml" title="Thomas Gerstendörfer">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="author" content="Thomas Gerstendörfer">
+		<meta name="author" content="{{ site.author.name }}">
 		<meta property="fb:profile_id" content="100003235693715" />
 		<meta property="fb:admins" content="100003235693715" />
 		<meta property="og:type" content="website" />
 		<meta property="og:locale" content="de_DE" />
-		<meta property="og:site_name" content="gerstendoerfer.ch" />
+		<meta property="og:site_name" content="{{ site.name }}" />
 		<meta property="og:title" content="{{ page.title }}" />
 		<meta property="og:description" content="{{ page.description }}" />
 		<script>
@@ -22,9 +22,9 @@
 	</head>
 	<body>
 		<nav>
-			<h1><a href="/">gerstendoerfer.ch</a></h1>
-			<p>Gedanken an der Schnittstelle von Kunst, Technologie und allem anderen.</p>
-			<p>Von <a href="http://gerstendoerfer.com" rel="me">Thomas Gerstendörfer</a>.</p>
+			<h1><a href="/">{{ site.name }}</a></h1>
+			<p>{{ site.description }}</p>
+			<p>Von <a href="{{ site.author.uri }}" rel="me">{{ site.author.name }}</a>.</p>
 		</nav>
 		<main>
 			{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}

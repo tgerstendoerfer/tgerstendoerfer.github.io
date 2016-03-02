@@ -4,3 +4,11 @@ destination: ./_site
 lsi: false
 markdown: kramdown
 exclude: [vendor]
+
+name: gerstendoerfer.ch
+description: "Gedanken an der Schnittstelle von Kunst, Technologie und allem anderen."
+url: http://gerstendoerfer.ch
+
+author:
+  name: Thomas Gerstendörfer
+  uri: http://www.gerstendoerfer.com
