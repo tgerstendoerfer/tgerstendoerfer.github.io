@@ -1,9 +1,11 @@
-safe: true
 source: .
 destination: ./_site
 lsi: false
 markdown: kramdown
 exclude: [vendor]
+
+gems:
+  - jekyll-feed
 
 name: gerstendoerfer.ch
 description: "Gedanken an der Schnittstelle von Kunst, Technologie und allem anderen."
